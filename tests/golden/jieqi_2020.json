@@ -1,0 +1,813 @@
+{
+ "input": {
+  "birth_date": "2020-02-04",
+  "birth_time": "17:30:00",
+  "birth_place": "新竹",
+  "sex": "男",
+  "ziwei_chart_text": "",
+  "history": "2024 年開始上學"
+ },
+ "report": {
+  "profile": {
+   "solar_birth": "2020-02-04 17:30:00",
+   "birth_place": "新竹",
+   "timezone": "Asia/Taipei",
+   "time_basis": "台灣當地民用時間；未校正真太陽時",
+   "sex": "男"
+  },
+  "bazi": {
+   "calculation": "lunar-python",
+   "pillars": [
+    {
+     "pillar": "年柱",
+     "ganzhi": "庚子"
+    },
+    {
+     "pillar": "月柱",
+     "ganzhi": "戊寅"
+    },
+    {
+     "pillar": "日柱",
+     "ganzhi": "丁丑"
+    },
+    {
+     "pillar": "時柱",
+     "ganzhi": "己酉"
+    }
+   ],
+   "lunar_date": {
+    "year": 2020,
+    "month": 1,
+    "day": 11,
+    "is_leap_month": false
+   }
+  },
+  "ziwei_doushu": {
+   "status": "calculated",
+   "chart": {
+    "engine": "iztro",
+    "engine_version": "2.6.3",
+    "gender": "男",
+    "gender_category": "陽男",
+    "solar_date": "2020-02-04",
+    "lunar_date": "二〇二〇年正月十一",
+    "birth_pillars": [
+     "庚子",
+     "戊寅",
+     "丁丑",
+     "己酉"
+    ],
+    "time": "酉時",
+    "time_range": "17:00~19:00",
+    "zodiac": "鼠",
+    "life_palace_branch": "巳",
+    "body_palace_branch": "亥",
+    "soul": "武曲",
+    "body": "火星",
+    "five_elements_class": "金四局",
+    "four_transformations": [
+     {
+      "transformation": "科",
+      "star": "太陰",
+      "palace": "子女"
+     },
+     {
+      "transformation": "忌",
+      "star": "天同",
+      "palace": "僕役"
+     },
+     {
+      "transformation": "權",
+      "star": "武曲",
+      "palace": "遷移"
+     },
+     {
+      "transformation": "祿",
+      "star": "太陽",
+      "palace": "疾厄"
+     }
+    ],
+    "palaces": [
+     {
+      "name": "子女",
+      "heavenly_stem": "戊",
+      "earthly_branch": "寅",
+      "is_body_palace": false,
+      "is_original_palace": false,
+      "major_stars": [
+       {
+        "name": "天機",
+        "brightness": "得",
+        "mutagen": ""
+       },
+       {
+        "name": "太陰",
+        "brightness": "旺",
+        "mutagen": "科"
+       }
+      ],
+      "minor_stars": [
+       {
+        "name": "天馬",
+        "brightness": ""
+       },
+       {
+        "name": "地空",
+        "brightness": ""
+       }
+      ],
+      "adjective_stars": [
+       "三台",
+       "天廚",
+       "孤辰",
+       "陰煞"
+      ],
+      "changsheng": "絕",
+      "boshi": "飛廉",
+      "jiangqian": "歲驛",
+      "suiqian": "喪門",
+      "decadal": [
+       94,
+       103
+      ],
+      "small_limit_ages": [
+       5,
+       17,
+       29,
+       41,
+       53,
+       65,
+       77,
+       89,
+       101,
+       113
+      ]
+     },
+     {
+      "name": "夫妻",
+      "heavenly_stem": "己",
+      "earthly_branch": "卯",
+      "is_body_palace": false,
+      "is_original_palace": false,
+      "major_stars": [
+       {
+        "name": "紫微",
+        "brightness": "旺",
+        "mutagen": ""
+       },
+       {
+        "name": "貪狼",
+        "brightness": "利",
+        "mutagen": ""
+       }
+      ],
+      "minor_stars": [],
+      "adjective_stars": [
+       "紅鸞",
+       "台輔"
+      ],
+      "changsheng": "胎",
+      "boshi": "喜神",
+      "jiangqian": "息神",
+      "suiqian": "貫索",
+      "decadal": [
+       104,
+       113
+      ],
+      "small_limit_ages": [
+       6,
+       18,
+       30,
+       42,
+       54,
+       66,
+       78,
+       90,
+       102,
+       114
+      ]
+     },
+     {
+      "name": "兄弟",
+      "heavenly_stem": "庚",
+      "earthly_branch": "辰",
+      "is_body_palace": false,
+      "is_original_palace": true,
+      "major_stars": [
+       {
+        "name": "巨門",
+        "brightness": "陷",
+        "mutagen": ""
+       }
+      ],
+      "minor_stars": [
+       {
+        "name": "左輔",
+        "brightness": "",
+        "mutagen": ""
+       }
+      ],
+      "adjective_stars": [
+       "龍池",
+       "華蓋",
+       "旬空"
+      ],
+      "changsheng": "養",
+      "boshi": "病符",
+      "jiangqian": "華蓋",
+      "suiqian": "官符",
+      "decadal": [
+       114,
+       123
+      ],
+      "small_limit_ages": [
+       7,
+       19,
+       31,
+       43,
+       55,
+       67,
+       79,
+       91,
+       103,
+       115
+      ]
+     },
+     {
+      "name": "命宮",
+      "heavenly_stem": "辛",
+      "earthly_branch": "巳",
+      "is_body_palace": false,
+      "is_original_palace": false,
+      "major_stars": [
+       {
+        "name": "天相",
+        "brightness": "得",
+        "mutagen": ""
+       }
+      ],
+      "minor_stars": [],
+      "adjective_stars": [
+       "天才",
+       "天巫",
+       "月德",
+       "破碎"
+      ],
+      "changsheng": "長生",
+      "boshi": "大耗",
+      "jiangqian": "劫煞",
+      "suiqian": "小耗",
+      "decadal": [
+       4,
+       13
+      ],
+      "small_limit_ages": [
+       8,
+       20,
+       32,
+       44,
+       56,
+       68,
+       80,
+       92,
+       104,
+       116
+      ]
+     },
+     {
+      "name": "父母",
+      "heavenly_stem": "壬",
+      "earthly_branch": "午",
+      "is_body_palace": false,
+      "is_original_palace": false,
+      "major_stars": [
+       {
+        "name": "天梁",
+        "brightness": "廟",
+        "mutagen": ""
+       }
+      ],
+      "minor_stars": [],
+      "adjective_stars": [
+       "天福",
+       "截路",
+       "天哭",
+       "天虛"
+      ],
+      "changsheng": "沐浴",
+      "boshi": "伏兵",
+      "jiangqian": "災煞",
+      "suiqian": "大耗",
+      "decadal": [
+       14,
+       23
+      ],
+      "small_limit_ages": [
+       9,
+       21,
+       33,
+       45,
+       57,
+       69,
+       81,
+       93,
+       105,
+       117
+      ]
+     },
+     {
+      "name": "福德",
+      "heavenly_stem": "癸",
+      "earthly_branch": "未",
+      "is_body_palace": false,
+      "is_original_palace": false,
+      "major_stars": [
+       {
+        "name": "廉貞",
+        "brightness": "利",
+        "mutagen": ""
+       },
+       {
+        "name": "七殺",
+        "brightness": "廟",
+        "mutagen": ""
+       }
+      ],
+      "minor_stars": [
+       {
+        "name": "天鉞",
+        "brightness": ""
+       },
+       {
+        "name": "鈴星",
+        "brightness": "利"
+       },
+       {
+        "name": "陀羅",
+        "brightness": "廟"
+       }
+      ],
+      "adjective_stars": [
+       "空亡"
+      ],
+      "changsheng": "冠帶",
+      "boshi": "官府",
+      "jiangqian": "天煞",
+      "suiqian": "龍德",
+      "decadal": [
+       24,
+       33
+      ],
+      "small_limit_ages": [
+       10,
+       22,
+       34,
+       46,
+       58,
+       70,
+       82,
+       94,
+       106,
+       118
+      ]
+     },
+     {
+      "name": "田宅",
+      "heavenly_stem": "甲",
+      "earthly_branch": "申",
+      "is_body_palace": false,
+      "is_original_palace": false,
+      "major_stars": [],
+      "minor_stars": [
+       {
+        "name": "祿存",
+        "brightness": ""
+       },
+       {
+        "name": "地劫",
+        "brightness": ""
+       }
+      ],
+      "adjective_stars": [
+       "解神",
+       "蜚廉"
+      ],
+      "changsheng": "臨官",
+      "boshi": "博士",
+      "jiangqian": "指背",
+      "suiqian": "白虎",
+      "decadal": [
+       34,
+       43
+      ],
+      "small_limit_ages": [
+       11,
+       23,
+       35,
+       47,
+       59,
+       71,
+       83,
+       95,
+       107,
+       119
+      ]
+     },
+     {
+      "name": "官祿",
+      "heavenly_stem": "乙",
+      "earthly_branch": "酉",
+      "is_body_palace": false,
+      "is_original_palace": false,
+      "major_stars": [],
+      "minor_stars": [
+       {
+        "name": "擎羊",
+        "brightness": "陷"
+       }
+      ],
+      "adjective_stars": [
+       "天喜",
+       "咸池",
+       "天德",
+       "天刑"
+      ],
+      "changsheng": "帝旺",
+      "boshi": "力士",
+      "jiangqian": "咸池",
+      "suiqian": "天德",
+      "decadal": [
+       44,
+       53
+      ],
+      "small_limit_ages": [
+       12,
+       24,
+       36,
+       48,
+       60,
+       72,
+       84,
+       96,
+       108,
+       120
+      ]
+     },
+     {
+      "name": "僕役",
+      "heavenly_stem": "丙",
+      "earthly_branch": "戌",
+      "is_body_palace": false,
+      "is_original_palace": false,
+      "major_stars": [
+       {
+        "name": "天同",
+        "brightness": "平",
+        "mutagen": "忌"
+       }
+      ],
+      "minor_stars": [
+       {
+        "name": "右弼",
+        "brightness": "",
+        "mutagen": ""
+       }
+      ],
+      "adjective_stars": [
+       "恩光",
+       "天貴",
+       "鳳閣",
+       "天月",
+       "寡宿",
+       "天傷",
+       "年解"
+      ],
+      "changsheng": "衰",
+      "boshi": "青龍",
+      "jiangqian": "月煞",
+      "suiqian": "弔客",
+      "decadal": [
+       54,
+       63
+      ],
+      "small_limit_ages": [
+       1,
+       13,
+       25,
+       37,
+       49,
+       61,
+       73,
+       85,
+       97,
+       109
+      ]
+     },
+     {
+      "name": "遷移",
+      "heavenly_stem": "丁",
+      "earthly_branch": "亥",
+      "is_body_palace": true,
+      "is_original_palace": false,
+      "major_stars": [
+       {
+        "name": "武曲",
+        "brightness": "平",
+        "mutagen": "權"
+       },
+       {
+        "name": "破軍",
+        "brightness": "平",
+        "mutagen": ""
+       }
+      ],
+      "minor_stars": [
+       {
+        "name": "火星",
+        "brightness": "利"
+       }
+      ],
+      "adjective_stars": [
+       "天壽",
+       "封誥",
+       "天官"
+      ],
+      "changsheng": "病",
+      "boshi": "小耗",
+      "jiangqian": "亡神",
+      "suiqian": "病符",
+      "decadal": [
+       64,
+       73
+      ],
+      "small_limit_ages": [
+       2,
+       14,
+       26,
+       38,
+       50,
+       62,
+       74,
+       86,
+       98,
+       110
+      ]
+     },
+     {
+      "name": "疾厄",
+      "heavenly_stem": "戊",
+      "earthly_branch": "子",
+      "is_body_palace": false,
+      "is_original_palace": false,
+      "major_stars": [
+       {
+        "name": "太陽",
+        "brightness": "陷",
+        "mutagen": "祿"
+       }
+      ],
+      "minor_stars": [],
+      "adjective_stars": [
+       "八座",
+       "天使"
+      ],
+      "changsheng": "死",
+      "boshi": "將軍",
+      "jiangqian": "將星",
+      "suiqian": "歲建",
+      "decadal": [
+       74,
+       83
+      ],
+      "small_limit_ages": [
+       3,
+       15,
+       27,
+       39,
+       51,
+       63,
+       75,
+       87,
+       99,
+       111
+      ]
+     },
+     {
+      "name": "財帛",
+      "heavenly_stem": "己",
+      "earthly_branch": "丑",
+      "is_body_palace": false,
+      "is_original_palace": false,
+      "major_stars": [
+       {
+        "name": "天府",
+        "brightness": "廟",
+        "mutagen": ""
+       }
+      ],
+      "minor_stars": [
+       {
+        "name": "文昌",
+        "brightness": "廟",
+        "mutagen": ""
+       },
+       {
+        "name": "文曲",
+        "brightness": "廟",
+        "mutagen": ""
+       },
+       {
+        "name": "天魁",
+        "brightness": ""
+       }
+      ],
+      "adjective_stars": [
+       "天姚",
+       "天空"
+      ],
+      "changsheng": "墓",
+      "boshi": "奏書",
+      "jiangqian": "攀鞍",
+      "suiqian": "晦氣",
+      "decadal": [
+       84,
+       93
+      ],
+      "small_limit_ages": [
+       4,
+       16,
+       28,
+       40,
+       52,
+       64,
+       76,
+       88,
+       100,
+       112
+      ]
+     }
+    ],
+    "calculation_settings": {
+     "type": "solar",
+     "fix_leap_month": true,
+     "language": "zh-TW",
+     "chart_type": "heaven",
+     "horoscope_date_basis": "每年 7 月 1 日，代表立春後流年；不是事件日期的精確節氣換年判斷"
+    }
+   },
+   "annual_cycles": [
+    {
+     "gregorian_year": 2024,
+     "virtual_age": 5,
+     "ziwei": {
+      "decadal": {
+       "palace": "命宮",
+       "age_range": [
+        4,
+        13
+       ],
+       "heavenly_stem": "辛",
+       "earthly_branch": "巳"
+      },
+      "small_limit": {
+       "palace": "子女",
+       "heavenly_stem": "戊",
+       "earthly_branch": "寅"
+      },
+      "yearly": {
+       "heavenly_stem": "甲",
+       "earthly_branch": "辰",
+       "life_palace_branch": "辰",
+       "four_transformations": [
+        "廉貞",
+        "破軍",
+        "武曲",
+        "太陽"
+       ],
+       "palaces": [
+        {
+         "name": "夫妻",
+         "heavenly_stem": "戊",
+         "earthly_branch": "寅",
+         "stars": [
+          "流祿",
+          "流馬"
+         ]
+        },
+        {
+         "name": "兄弟",
+         "heavenly_stem": "己",
+         "earthly_branch": "卯",
+         "stars": [
+          "流羊"
+         ]
+        },
+        {
+         "name": "命宮",
+         "heavenly_stem": "庚",
+         "earthly_branch": "辰",
+         "stars": []
+        },
+        {
+         "name": "父母",
+         "heavenly_stem": "辛",
+         "earthly_branch": "巳",
+         "stars": [
+          "流昌",
+          "流喜"
+         ]
+        },
+        {
+         "name": "福德",
+         "heavenly_stem": "壬",
+         "earthly_branch": "午",
+         "stars": [
+          "年解"
+         ]
+        },
+        {
+         "name": "田宅",
+         "heavenly_stem": "癸",
+         "earthly_branch": "未",
+         "stars": [
+          "流鉞"
+         ]
+        },
+        {
+         "name": "官祿",
+         "heavenly_stem": "甲",
+         "earthly_branch": "申",
+         "stars": []
+        },
+        {
+         "name": "僕役",
+         "heavenly_stem": "乙",
+         "earthly_branch": "酉",
+         "stars": [
+          "流曲"
+         ]
+        },
+        {
+         "name": "遷移",
+         "heavenly_stem": "丙",
+         "earthly_branch": "戌",
+         "stars": []
+        },
+        {
+         "name": "疾厄",
+         "heavenly_stem": "丁",
+         "earthly_branch": "亥",
+         "stars": [
+          "流鸞"
+         ]
+        },
+        {
+         "name": "財帛",
+         "heavenly_stem": "戊",
+         "earthly_branch": "子",
+         "stars": []
+        },
+        {
+         "name": "子女",
+         "heavenly_stem": "己",
+         "earthly_branch": "丑",
+         "stars": [
+          "流魁",
+          "流陀"
+         ]
+        }
+       ]
+      }
+     },
+     "bazi": {
+      "gregorian_year": 2024,
+      "virtual_age": 5,
+      "ganzhi": "甲辰",
+      "basis": "以該年 7 月 1 日代表立春後的流年干支；不是事件日期的精確節氣換年判斷"
+     }
+    }
+   ],
+   "reference_text": "",
+   "note": "本命盤由 iztro 2.6.3 依陽曆、出生時辰及性別排出。流年索引以每年 7 月 1 日取值；不同流派或設定可能有差異。"
+  },
+  "historical_context": {
+   "timeline_years": [
+    {
+     "gregorian_year": 2024,
+     "virtual_age": 5,
+     "ganzhi": "甲辰",
+     "basis": "以該年 7 月 1 日代表立春後的流年干支；不是事件日期的精確節氣換年判斷"
+    }
+   ],
+   "raw_text": "2024 年開始上學"
+  },
+  "calculation_notes": [
+   "八字依輸入的台灣民用時間計算，未作真太陽時校正；出生時間接近時辰或節氣交界時，請另行核對。",
+   "流年干支以每年 7 月 1 日取值，代表立春後干支；僅列出人生紀錄中出現的西元年份。",
+   "紫微斗數由 iztro 2.6.3 排盤，採陽曆、天盤、繁體中文及其預設四化／亮度設定；不同流派可能有差異。",
+   "命理內容適合作為文化與自我反思素材，不應視為可驗證的因果、醫療、投資或人生決策依據。"
+  ]
+ },
+ "markdown": "# 命盤與人生事件資料（供 AI 輔助整理）\n\n請以尊重、審慎、不宿命論的方式分析。清楚區分命理傳統的象徵性解讀與可由人生紀錄確認的事實；\n不要把相關性說成因果，也不要對健康、投資或重大人生決策作確定性預言。\n\n## 出生資料\n- 陽曆：2020-02-04 17:30:00\n- 出生地：新竹\n- 時區／時間基準：Asia/Taipei；台灣當地民用時間；未校正真太陽時\n- 性別：男\n- 八字四柱：年柱 庚子、月柱 戊寅、日柱 丁丑、時柱 己酉\n\n## 紫微斗數本命盤\n- 排盤引擎：iztro 2.6.3\n- 陰陽性別：陽男\n- 農曆：二〇二〇年正月十一；時辰：酉時\n- 五行局：金四局\n- 命宮地支：巳；身宮地支：亥\n- 命主：武曲；身主：火星\n\n```json\n{\n  \"engine\": \"iztro\",\n  \"engine_version\": \"2.6.3\",\n  \"gender\": \"男\",\n  \"gender_category\": \"陽男\",\n  \"solar_date\": \"2020-02-04\",\n  \"lunar_date\": \"二〇二〇年正月十一\",\n  \"birth_pillars\": [\n    \"庚子\",\n    \"戊寅\",\n    \"丁丑\",\n    \"己酉\"\n  ],\n  \"time\": \"酉時\",\n  \"time_range\": \"17:00~19:00\",\n  \"zodiac\": \"鼠\",\n  \"life_palace_branch\": \"巳\",\n  \"body_palace_branch\": \"亥\",\n  \"soul\": \"武曲\",\n  \"body\": \"火星\",\n  \"five_elements_class\": \"金四局\",\n  \"four_transformations\": [\n    {\n      \"transformation\": \"科\",\n      \"star\": \"太陰\",\n      \"palace\": \"子女\"\n    },\n    {\n      \"transformation\": \"忌\",\n      \"star\": \"天同\",\n      \"palace\": \"僕役\"\n    },\n    {\n      \"transformation\": \"權\",\n      \"star\": \"武曲\",\n      \"palace\": \"遷移\"\n    },\n    {\n      \"transformation\": \"祿\",\n      \"star\": \"太陽\",\n      \"palace\": \"疾厄\"\n    }\n  ],\n  \"palaces\": [\n    {\n      \"name\": \"子女\",\n      \"heavenly_stem\": \"戊\",\n      \"earthly_branch\": \"寅\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": false,\n      \"major_stars\": [\n        {\n          \"name\": \"天機\",\n          \"brightness\": \"得\",\n          \"mutagen\": \"\"\n        },\n        {\n          \"name\": \"太陰\",\n          \"brightness\": \"旺\",\n          \"mutagen\": \"科\"\n        }\n      ],\n      \"minor_stars\": [\n        {\n          \"name\": \"天馬\",\n          \"brightness\": \"\"\n        },\n        {\n          \"name\": \"地空\",\n          \"brightness\": \"\"\n        }\n      ],\n      \"adjective_stars\": [\n        \"三台\",\n        \"天廚\",\n        \"孤辰\",\n        \"陰煞\"\n      ],\n      \"changsheng\": \"絕\",\n      \"boshi\": \"飛廉\",\n      \"jiangqian\": \"歲驛\",\n      \"suiqian\": \"喪門\",\n      \"decadal\": [\n        94,\n        103\n      ],\n      \"small_limit_ages\": [\n        5,\n        17,\n        29,\n        41,\n        53,\n        65,\n        77,\n        89,\n        101,\n        113\n      ]\n    },\n    {\n      \"name\": \"夫妻\",\n      \"heavenly_stem\": \"己\",\n      \"earthly_branch\": \"卯\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": false,\n      \"major_stars\": [\n        {\n          \"name\": \"紫微\",\n          \"brightness\": \"旺\",\n          \"mutagen\": \"\"\n        },\n        {\n          \"name\": \"貪狼\",\n          \"brightness\": \"利\",\n          \"mutagen\": \"\"\n        }\n      ],\n      \"minor_stars\": [],\n      \"adjective_stars\": [\n        \"紅鸞\",\n        \"台輔\"\n      ],\n      \"changsheng\": \"胎\",\n      \"boshi\": \"喜神\",\n      \"jiangqian\": \"息神\",\n      \"suiqian\": \"貫索\",\n      \"decadal\": [\n        104,\n        113\n      ],\n      \"small_limit_ages\": [\n        6,\n        18,\n        30,\n        42,\n        54,\n        66,\n        78,\n        90,\n        102,\n        114\n      ]\n    },\n    {\n      \"name\": \"兄弟\",\n      \"heavenly_stem\": \"庚\",\n      \"earthly_branch\": \"辰\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": true,\n      \"major_stars\": [\n        {\n          \"name\": \"巨門\",\n          \"brightness\": \"陷\",\n          \"mutagen\": \"\"\n        }\n      ],\n      \"minor_stars\": [\n        {\n          \"name\": \"左輔\",\n          \"brightness\": \"\",\n          \"mutagen\": \"\"\n        }\n      ],\n      \"adjective_stars\": [\n        \"龍池\",\n        \"華蓋\",\n        \"旬空\"\n      ],\n      \"changsheng\": \"養\",\n      \"boshi\": \"病符\",\n      \"jiangqian\": \"華蓋\",\n      \"suiqian\": \"官符\",\n      \"decadal\": [\n        114,\n        123\n      ],\n      \"small_limit_ages\": [\n        7,\n        19,\n        31,\n        43,\n        55,\n        67,\n        79,\n        91,\n        103,\n        115\n      ]\n    },\n    {\n      \"name\": \"命宮\",\n      \"heavenly_stem\": \"辛\",\n      \"earthly_branch\": \"巳\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": false,\n      \"major_stars\": [\n        {\n          \"name\": \"天相\",\n          \"brightness\": \"得\",\n          \"mutagen\": \"\"\n        }\n      ],\n      \"minor_stars\": [],\n      \"adjective_stars\": [\n        \"天才\",\n        \"天巫\",\n        \"月德\",\n        \"破碎\"\n      ],\n      \"changsheng\": \"長生\",\n      \"boshi\": \"大耗\",\n      \"jiangqian\": \"劫煞\",\n      \"suiqian\": \"小耗\",\n      \"decadal\": [\n        4,\n        13\n      ],\n      \"small_limit_ages\": [\n        8,\n        20,\n        32,\n        44,\n        56,\n        68,\n        80,\n        92,\n        104,\n        116\n      ]\n    },\n    {\n      \"name\": \"父母\",\n      \"heavenly_stem\": \"壬\",\n      \"earthly_branch\": \"午\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": false,\n      \"major_stars\": [\n        {\n          \"name\": \"天梁\",\n          \"brightness\": \"廟\",\n          \"mutagen\": \"\"\n        }\n      ],\n      \"minor_stars\": [],\n      \"adjective_stars\": [\n        \"天福\",\n        \"截路\",\n        \"天哭\",\n        \"天虛\"\n      ],\n      \"changsheng\": \"沐浴\",\n      \"boshi\": \"伏兵\",\n      \"jiangqian\": \"災煞\",\n      \"suiqian\": \"大耗\",\n      \"decadal\": [\n        14,\n        23\n      ],\n      \"small_limit_ages\": [\n        9,\n        21,\n        33,\n        45,\n        57,\n        69,\n        81,\n        93,\n        105,\n        117\n      ]\n    },\n    {\n      \"name\": \"福德\",\n      \"heavenly_stem\": \"癸\",\n      \"earthly_branch\": \"未\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": false,\n      \"major_stars\": [\n        {\n          \"name\": \"廉貞\",\n          \"brightness\": \"利\",\n          \"mutagen\": \"\"\n        },\n        {\n          \"name\": \"七殺\",\n          \"brightness\": \"廟\",\n          \"mutagen\": \"\"\n        }\n      ],\n      \"minor_stars\": [\n        {\n          \"name\": \"天鉞\",\n          \"brightness\": \"\"\n        },\n        {\n          \"name\": \"鈴星\",\n          \"brightness\": \"利\"\n        },\n        {\n          \"name\": \"陀羅\",\n          \"brightness\": \"廟\"\n        }\n      ],\n      \"adjective_stars\": [\n        \"空亡\"\n      ],\n      \"changsheng\": \"冠帶\",\n      \"boshi\": \"官府\",\n      \"jiangqian\": \"天煞\",\n      \"suiqian\": \"龍德\",\n      \"decadal\": [\n        24,\n        33\n      ],\n      \"small_limit_ages\": [\n        10,\n        22,\n        34,\n        46,\n        58,\n        70,\n        82,\n        94,\n        106,\n        118\n      ]\n    },\n    {\n      \"name\": \"田宅\",\n      \"heavenly_stem\": \"甲\",\n      \"earthly_branch\": \"申\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": false,\n      \"major_stars\": [],\n      \"minor_stars\": [\n        {\n          \"name\": \"祿存\",\n          \"brightness\": \"\"\n        },\n        {\n          \"name\": \"地劫\",\n          \"brightness\": \"\"\n        }\n      ],\n      \"adjective_stars\": [\n        \"解神\",\n        \"蜚廉\"\n      ],\n      \"changsheng\": \"臨官\",\n      \"boshi\": \"博士\",\n      \"jiangqian\": \"指背\",\n      \"suiqian\": \"白虎\",\n      \"decadal\": [\n        34,\n        43\n      ],\n      \"small_limit_ages\": [\n        11,\n        23,\n        35,\n        47,\n        59,\n        71,\n        83,\n        95,\n        107,\n        119\n      ]\n    },\n    {\n      \"name\": \"官祿\",\n      \"heavenly_stem\": \"乙\",\n      \"earthly_branch\": \"酉\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": false,\n      \"major_stars\": [],\n      \"minor_stars\": [\n        {\n          \"name\": \"擎羊\",\n          \"brightness\": \"陷\"\n        }\n      ],\n      \"adjective_stars\": [\n        \"天喜\",\n        \"咸池\",\n        \"天德\",\n        \"天刑\"\n      ],\n      \"changsheng\": \"帝旺\",\n      \"boshi\": \"力士\",\n      \"jiangqian\": \"咸池\",\n      \"suiqian\": \"天德\",\n      \"decadal\": [\n        44,\n        53\n      ],\n      \"small_limit_ages\": [\n        12,\n        24,\n        36,\n        48,\n        60,\n        72,\n        84,\n        96,\n        108,\n        120\n      ]\n    },\n    {\n      \"name\": \"僕役\",\n      \"heavenly_stem\": \"丙\",\n      \"earthly_branch\": \"戌\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": false,\n      \"major_stars\": [\n        {\n          \"name\": \"天同\",\n          \"brightness\": \"平\",\n          \"mutagen\": \"忌\"\n        }\n      ],\n      \"minor_stars\": [\n        {\n          \"name\": \"右弼\",\n          \"brightness\": \"\",\n          \"mutagen\": \"\"\n        }\n      ],\n      \"adjective_stars\": [\n        \"恩光\",\n        \"天貴\",\n        \"鳳閣\",\n        \"天月\",\n        \"寡宿\",\n        \"天傷\",\n        \"年解\"\n      ],\n      \"changsheng\": \"衰\",\n      \"boshi\": \"青龍\",\n      \"jiangqian\": \"月煞\",\n      \"suiqian\": \"弔客\",\n      \"decadal\": [\n        54,\n        63\n      ],\n      \"small_limit_ages\": [\n        1,\n        13,\n        25,\n        37,\n        49,\n        61,\n        73,\n        85,\n        97,\n        109\n      ]\n    },\n    {\n      \"name\": \"遷移\",\n      \"heavenly_stem\": \"丁\",\n      \"earthly_branch\": \"亥\",\n      \"is_body_palace\": true,\n      \"is_original_palace\": false,\n      \"major_stars\": [\n        {\n          \"name\": \"武曲\",\n          \"brightness\": \"平\",\n          \"mutagen\": \"權\"\n        },\n        {\n          \"name\": \"破軍\",\n          \"brightness\": \"平\",\n          \"mutagen\": \"\"\n        }\n      ],\n      \"minor_stars\": [\n        {\n          \"name\": \"火星\",\n          \"brightness\": \"利\"\n        }\n      ],\n      \"adjective_stars\": [\n        \"天壽\",\n        \"封誥\",\n        \"天官\"\n      ],\n      \"changsheng\": \"病\",\n      \"boshi\": \"小耗\",\n      \"jiangqian\": \"亡神\",\n      \"suiqian\": \"病符\",\n      \"decadal\": [\n        64,\n        73\n      ],\n      \"small_limit_ages\": [\n        2,\n        14,\n        26,\n        38,\n        50,\n        62,\n        74,\n        86,\n        98,\n        110\n      ]\n    },\n    {\n      \"name\": \"疾厄\",\n      \"heavenly_stem\": \"戊\",\n      \"earthly_branch\": \"子\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": false,\n      \"major_stars\": [\n        {\n          \"name\": \"太陽\",\n          \"brightness\": \"陷\",\n          \"mutagen\": \"祿\"\n        }\n      ],\n      \"minor_stars\": [],\n      \"adjective_stars\": [\n        \"八座\",\n        \"天使\"\n      ],\n      \"changsheng\": \"死\",\n      \"boshi\": \"將軍\",\n      \"jiangqian\": \"將星\",\n      \"suiqian\": \"歲建\",\n      \"decadal\": [\n        74,\n        83\n      ],\n      \"small_limit_ages\": [\n        3,\n        15,\n        27,\n        39,\n        51,\n        63,\n        75,\n        87,\n        99,\n        111\n      ]\n    },\n    {\n      \"name\": \"財帛\",\n      \"heavenly_stem\": \"己\",\n      \"earthly_branch\": \"丑\",\n      \"is_body_palace\": false,\n      \"is_original_palace\": false,\n      \"major_stars\": [\n        {\n          \"name\": \"天府\",\n          \"brightness\": \"廟\",\n          \"mutagen\": \"\"\n        }\n      ],\n      \"minor_stars\": [\n        {\n          \"name\": \"文昌\",\n          \"brightness\": \"廟\",\n          \"mutagen\": \"\"\n        },\n        {\n          \"name\": \"文曲\",\n          \"brightness\": \"廟\",\n          \"mutagen\": \"\"\n        },\n        {\n          \"name\": \"天魁\",\n          \"brightness\": \"\"\n        }\n      ],\n      \"adjective_stars\": [\n        \"天姚\",\n        \"天空\"\n      ],\n      \"changsheng\": \"墓\",\n      \"boshi\": \"奏書\",\n      \"jiangqian\": \"攀鞍\",\n      \"suiqian\": \"晦氣\",\n      \"decadal\": [\n        84,\n        93\n      ],\n      \"small_limit_ages\": [\n        4,\n        16,\n        28,\n        40,\n        52,\n        64,\n        76,\n        88,\n        100,\n        112\n      ]\n    }\n  ],\n  \"calculation_settings\": {\n    \"type\": \"solar\",\n    \"fix_leap_month\": true,\n    \"language\": \"zh-TW\",\n    \"chart_type\": \"heaven\",\n    \"horoscope_date_basis\": \"每年 7 月 1 日，代表立春後流年；不是事件日期的精確節氣換年判斷\"\n  }\n}\n```\n\n## 紫微流年、大限與小限索引\n```json\n[\n  {\n    \"gregorian_year\": 2024,\n    \"virtual_age\": 5,\n    \"ziwei\": {\n      \"decadal\": {\n        \"palace\": \"命宮\",\n        \"age_range\": [\n          4,\n          13\n        ],\n        \"heavenly_stem\": \"辛\",\n        \"earthly_branch\": \"巳\"\n      },\n      \"small_limit\": {\n        \"palace\": \"子女\",\n        \"heavenly_stem\": \"戊\",\n        \"earthly_branch\": \"寅\"\n      },\n      \"yearly\": {\n        \"heavenly_stem\": \"甲\",\n        \"earthly_branch\": \"辰\",\n        \"life_palace_branch\": \"辰\",\n        \"four_transformations\": [\n          \"廉貞\",\n          \"破軍\",\n          \"武曲\",\n          \"太陽\"\n        ],\n        \"palaces\": [\n          {\n            \"name\": \"夫妻\",\n            \"heavenly_stem\": \"戊\",\n            \"earthly_branch\": \"寅\",\n            \"stars\": [\n              \"流祿\",\n              \"流馬\"\n            ]\n          },\n          {\n            \"name\": \"兄弟\",\n            \"heavenly_stem\": \"己\",\n            \"earthly_branch\": \"卯\",\n            \"stars\": [\n              \"流羊\"\n            ]\n          },\n          {\n            \"name\": \"命宮\",\n            \"heavenly_stem\": \"庚\",\n            \"earthly_branch\": \"辰\",\n            \"stars\": []\n          },\n          {\n            \"name\": \"父母\",\n            \"heavenly_stem\": \"辛\",\n            \"earthly_branch\": \"巳\",\n            \"stars\": [\n              \"流昌\",\n              \"流喜\"\n            ]\n          },\n          {\n            \"name\": \"福德\",\n            \"heavenly_stem\": \"壬\",\n            \"earthly_branch\": \"午\",\n            \"stars\": [\n              \"年解\"\n            ]\n          },\n          {\n            \"name\": \"田宅\",\n            \"heavenly_stem\": \"癸\",\n            \"earthly_branch\": \"未\",\n            \"stars\": [\n              \"流鉞\"\n            ]\n          },\n          {\n            \"name\": \"官祿\",\n            \"heavenly_stem\": \"甲\",\n            \"earthly_branch\": \"申\",\n            \"stars\": []\n          },\n          {\n            \"name\": \"僕役\",\n            \"heavenly_stem\": \"乙\",\n            \"earthly_branch\": \"酉\",\n            \"stars\": [\n              \"流曲\"\n            ]\n          },\n          {\n            \"name\": \"遷移\",\n            \"heavenly_stem\": \"丙\",\n            \"earthly_branch\": \"戌\",\n            \"stars\": []\n          },\n          {\n            \"name\": \"疾厄\",\n            \"heavenly_stem\": \"丁\",\n            \"earthly_branch\": \"亥\",\n            \"stars\": [\n              \"流鸞\"\n            ]\n          },\n          {\n            \"name\": \"財帛\",\n            \"heavenly_stem\": \"戊\",\n            \"earthly_branch\": \"子\",\n            \"stars\": []\n          },\n          {\n            \"name\": \"子女\",\n            \"heavenly_stem\": \"己\",\n            \"earthly_branch\": \"丑\",\n            \"stars\": [\n              \"流魁\",\n              \"流陀\"\n            ]\n          }\n        ]\n      }\n    },\n    \"bazi\": {\n      \"gregorian_year\": 2024,\n      \"virtual_age\": 5,\n      \"ganzhi\": \"甲辰\",\n      \"basis\": \"以該年 7 月 1 日代表立春後的流年干支；不是事件日期的精確節氣換年判斷\"\n    }\n  }\n]\n```\n\n## 八字流年索引\n- 2024 年／虛歲 5／流年干支 甲辰\n\n## 人生事件原文\n2024 年開始上學\n\n## 計算與解讀限制\n- 八字依輸入的台灣民用時間計算，未作真太陽時校正；出生時間接近時辰或節氣交界時，請另行核對。\n- 流年干支以每年 7 月 1 日取值，代表立春後干支；僅列出人生紀錄中出現的西元年份。\n- 紫微斗數由 iztro 2.6.3 排盤，採陽曆、天盤、繁體中文及其預設四化／亮度設定；不同流派可能有差異。\n- 命理內容適合作為文化與自我反思素材，不應視為可驗證的因果、醫療、投資或人生決策依據。",
+ "json": "{\n  \"profile\": {\n    \"solar_birth\": \"2020-02-04 17:30:00\",\n    \"birth_place\": \"新竹\",\n    \"timezone\": \"Asia/Taipei\",\n    \"time_basis\": \"台灣當地民用時間；未校正真太陽時\",\n    \"sex\": \"男\"\n  },\n  \"bazi\": {\n    \"calculation\": \"lunar-python\",\n    \"pillars\": [\n      {\n        \"pillar\": \"年柱\",\n        \"ganzhi\": \"庚子\"\n      },\n      {\n        \"pillar\": \"月柱\",\n        \"ganzhi\": \"戊寅\"\n      },\n      {\n        \"pillar\": \"日柱\",\n        \"ganzhi\": \"丁丑\"\n      },\n      {\n        \"pillar\": \"時柱\",\n        \"ganzhi\": \"己酉\"\n      }\n    ],\n    \"lunar_date\": {\n      \"year\": 2020,\n      \"month\": 1,\n      \"day\": 11,\n      \"is_leap_month\": false\n    }\n  },\n  \"ziwei_doushu\": {\n    \"status\": \"calculated\",\n    \"chart\": {\n      \"engine\": \"iztro\",\n      \"engine_version\": \"2.6.3\",\n      \"gender\": \"男\",\n      \"gender_category\": \"陽男\",\n      \"solar_date\": \"2020-02-04\",\n      \"lunar_date\": \"二〇二〇年正月十一\",\n      \"birth_pillars\": [\n        \"庚子\",\n        \"戊寅\",\n        \"丁丑\",\n        \"己酉\"\n      ],\n      \"time\": \"酉時\",\n      \"time_range\": \"17:00~19:00\",\n      \"zodiac\": \"鼠\",\n      \"life_palace_branch\": \"巳\",\n      \"body_palace_branch\": \"亥\",\n      \"soul\": \"武曲\",\n      \"body\": \"火星\",\n      \"five_elements_class\": \"金四局\",\n      \"four_transformations\": [\n        {\n          \"transformation\": \"科\",\n          \"star\": \"太陰\",\n          \"palace\": \"子女\"\n        },\n        {\n          \"transformation\": \"忌\",\n          \"star\": \"天同\",\n          \"palace\": \"僕役\"\n        },\n        {\n          \"transformation\": \"權\",\n          \"star\": \"武曲\",\n          \"palace\": \"遷移\"\n        },\n        {\n          \"transformation\": \"祿\",\n          \"star\": \"太陽\",\n          \"palace\": \"疾厄\"\n        }\n      ],\n      \"palaces\": [\n        {\n          \"name\": \"子女\",\n          \"heavenly_stem\": \"戊\",\n          \"earthly_branch\": \"寅\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": false,\n          \"major_stars\": [\n            {\n              \"name\": \"天機\",\n              \"brightness\": \"得\",\n              \"mutagen\": \"\"\n            },\n            {\n              \"name\": \"太陰\",\n              \"brightness\": \"旺\",\n              \"mutagen\": \"科\"\n            }\n          ],\n          \"minor_stars\": [\n            {\n              \"name\": \"天馬\",\n              \"brightness\": \"\"\n            },\n            {\n              \"name\": \"地空\",\n              \"brightness\": \"\"\n            }\n          ],\n          \"adjective_stars\": [\n            \"三台\",\n            \"天廚\",\n            \"孤辰\",\n            \"陰煞\"\n          ],\n          \"changsheng\": \"絕\",\n          \"boshi\": \"飛廉\",\n          \"jiangqian\": \"歲驛\",\n          \"suiqian\": \"喪門\",\n          \"decadal\": [\n            94,\n            103\n          ],\n          \"small_limit_ages\": [\n            5,\n            17,\n            29,\n            41,\n            53,\n            65,\n            77,\n            89,\n            101,\n            113\n          ]\n        },\n        {\n          \"name\": \"夫妻\",\n          \"heavenly_stem\": \"己\",\n          \"earthly_branch\": \"卯\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": false,\n          \"major_stars\": [\n            {\n              \"name\": \"紫微\",\n              \"brightness\": \"旺\",\n              \"mutagen\": \"\"\n            },\n            {\n              \"name\": \"貪狼\",\n              \"brightness\": \"利\",\n              \"mutagen\": \"\"\n            }\n          ],\n          \"minor_stars\": [],\n          \"adjective_stars\": [\n            \"紅鸞\",\n            \"台輔\"\n          ],\n          \"changsheng\": \"胎\",\n          \"boshi\": \"喜神\",\n          \"jiangqian\": \"息神\",\n          \"suiqian\": \"貫索\",\n          \"decadal\": [\n            104,\n            113\n          ],\n          \"small_limit_ages\": [\n            6,\n            18,\n            30,\n            42,\n            54,\n            66,\n            78,\n            90,\n            102,\n            114\n          ]\n        },\n        {\n          \"name\": \"兄弟\",\n          \"heavenly_stem\": \"庚\",\n          \"earthly_branch\": \"辰\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": true,\n          \"major_stars\": [\n            {\n              \"name\": \"巨門\",\n              \"brightness\": \"陷\",\n              \"mutagen\": \"\"\n            }\n          ],\n          \"minor_stars\": [\n            {\n              \"name\": \"左輔\",\n              \"brightness\": \"\",\n              \"mutagen\": \"\"\n            }\n          ],\n          \"adjective_stars\": [\n            \"龍池\",\n            \"華蓋\",\n            \"旬空\"\n          ],\n          \"changsheng\": \"養\",\n          \"boshi\": \"病符\",\n          \"jiangqian\": \"華蓋\",\n          \"suiqian\": \"官符\",\n          \"decadal\": [\n            114,\n            123\n          ],\n          \"small_limit_ages\": [\n            7,\n            19,\n            31,\n            43,\n            55,\n            67,\n            79,\n            91,\n            103,\n            115\n          ]\n        },\n        {\n          \"name\": \"命宮\",\n          \"heavenly_stem\": \"辛\",\n          \"earthly_branch\": \"巳\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": false,\n          \"major_stars\": [\n            {\n              \"name\": \"天相\",\n              \"brightness\": \"得\",\n              \"mutagen\": \"\"\n            }\n          ],\n          \"minor_stars\": [],\n          \"adjective_stars\": [\n            \"天才\",\n            \"天巫\",\n            \"月德\",\n            \"破碎\"\n          ],\n          \"changsheng\": \"長生\",\n          \"boshi\": \"大耗\",\n          \"jiangqian\": \"劫煞\",\n          \"suiqian\": \"小耗\",\n          \"decadal\": [\n            4,\n            13\n          ],\n          \"small_limit_ages\": [\n            8,\n            20,\n            32,\n            44,\n            56,\n            68,\n            80,\n            92,\n            104,\n            116\n          ]\n        },\n        {\n          \"name\": \"父母\",\n          \"heavenly_stem\": \"壬\",\n          \"earthly_branch\": \"午\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": false,\n          \"major_stars\": [\n            {\n              \"name\": \"天梁\",\n              \"brightness\": \"廟\",\n              \"mutagen\": \"\"\n            }\n          ],\n          \"minor_stars\": [],\n          \"adjective_stars\": [\n            \"天福\",\n            \"截路\",\n            \"天哭\",\n            \"天虛\"\n          ],\n          \"changsheng\": \"沐浴\",\n          \"boshi\": \"伏兵\",\n          \"jiangqian\": \"災煞\",\n          \"suiqian\": \"大耗\",\n          \"decadal\": [\n            14,\n            23\n          ],\n          \"small_limit_ages\": [\n            9,\n            21,\n            33,\n            45,\n            57,\n            69,\n            81,\n            93,\n            105,\n            117\n          ]\n        },\n        {\n          \"name\": \"福德\",\n          \"heavenly_stem\": \"癸\",\n          \"earthly_branch\": \"未\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": false,\n          \"major_stars\": [\n            {\n              \"name\": \"廉貞\",\n              \"brightness\": \"利\",\n              \"mutagen\": \"\"\n            },\n            {\n              \"name\": \"七殺\",\n              \"brightness\": \"廟\",\n              \"mutagen\": \"\"\n            }\n          ],\n          \"minor_stars\": [\n            {\n              \"name\": \"天鉞\",\n              \"brightness\": \"\"\n            },\n            {\n              \"name\": \"鈴星\",\n              \"brightness\": \"利\"\n            },\n            {\n              \"name\": \"陀羅\",\n              \"brightness\": \"廟\"\n            }\n          ],\n          \"adjective_stars\": [\n            \"空亡\"\n          ],\n          \"changsheng\": \"冠帶\",\n          \"boshi\": \"官府\",\n          \"jiangqian\": \"天煞\",\n          \"suiqian\": \"龍德\",\n          \"decadal\": [\n            24,\n            33\n          ],\n          \"small_limit_ages\": [\n            10,\n            22,\n            34,\n            46,\n            58,\n            70,\n            82,\n            94,\n            106,\n            118\n          ]\n        },\n        {\n          \"name\": \"田宅\",\n          \"heavenly_stem\": \"甲\",\n          \"earthly_branch\": \"申\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": false,\n          \"major_stars\": [],\n          \"minor_stars\": [\n            {\n              \"name\": \"祿存\",\n              \"brightness\": \"\"\n            },\n            {\n              \"name\": \"地劫\",\n              \"brightness\": \"\"\n            }\n          ],\n          \"adjective_stars\": [\n            \"解神\",\n            \"蜚廉\"\n          ],\n          \"changsheng\": \"臨官\",\n          \"boshi\": \"博士\",\n          \"jiangqian\": \"指背\",\n          \"suiqian\": \"白虎\",\n          \"decadal\": [\n            34,\n            43\n          ],\n          \"small_limit_ages\": [\n            11,\n            23,\n            35,\n            47,\n            59,\n            71,\n            83,\n            95,\n            107,\n            119\n          ]\n        },\n        {\n          \"name\": \"官祿\",\n          \"heavenly_stem\": \"乙\",\n          \"earthly_branch\": \"酉\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": false,\n          \"major_stars\": [],\n          \"minor_stars\": [\n            {\n              \"name\": \"擎羊\",\n              \"brightness\": \"陷\"\n            }\n          ],\n          \"adjective_stars\": [\n            \"天喜\",\n            \"咸池\",\n            \"天德\",\n            \"天刑\"\n          ],\n          \"changsheng\": \"帝旺\",\n          \"boshi\": \"力士\",\n          \"jiangqian\": \"咸池\",\n          \"suiqian\": \"天德\",\n          \"decadal\": [\n            44,\n            53\n          ],\n          \"small_limit_ages\": [\n            12,\n            24,\n            36,\n            48,\n            60,\n            72,\n            84,\n            96,\n            108,\n            120\n          ]\n        },\n        {\n          \"name\": \"僕役\",\n          \"heavenly_stem\": \"丙\",\n          \"earthly_branch\": \"戌\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": false,\n          \"major_stars\": [\n            {\n              \"name\": \"天同\",\n              \"brightness\": \"平\",\n              \"mutagen\": \"忌\"\n            }\n          ],\n          \"minor_stars\": [\n            {\n              \"name\": \"右弼\",\n              \"brightness\": \"\",\n              \"mutagen\": \"\"\n            }\n          ],\n          \"adjective_stars\": [\n            \"恩光\",\n            \"天貴\",\n            \"鳳閣\",\n            \"天月\",\n            \"寡宿\",\n            \"天傷\",\n            \"年解\"\n          ],\n          \"changsheng\": \"衰\",\n          \"boshi\": \"青龍\",\n          \"jiangqian\": \"月煞\",\n          \"suiqian\": \"弔客\",\n          \"decadal\": [\n            54,\n            63\n          ],\n          \"small_limit_ages\": [\n            1,\n            13,\n            25,\n            37,\n            49,\n            61,\n            73,\n            85,\n            97,\n            109\n          ]\n        },\n        {\n          \"name\": \"遷移\",\n          \"heavenly_stem\": \"丁\",\n          \"earthly_branch\": \"亥\",\n          \"is_body_palace\": true,\n          \"is_original_palace\": false,\n          \"major_stars\": [\n            {\n              \"name\": \"武曲\",\n              \"brightness\": \"平\",\n              \"mutagen\": \"權\"\n            },\n            {\n              \"name\": \"破軍\",\n              \"brightness\": \"平\",\n              \"mutagen\": \"\"\n            }\n          ],\n          \"minor_stars\": [\n            {\n              \"name\": \"火星\",\n              \"brightness\": \"利\"\n            }\n          ],\n          \"adjective_stars\": [\n            \"天壽\",\n            \"封誥\",\n            \"天官\"\n          ],\n          \"changsheng\": \"病\",\n          \"boshi\": \"小耗\",\n          \"jiangqian\": \"亡神\",\n          \"suiqian\": \"病符\",\n          \"decadal\": [\n            64,\n            73\n          ],\n          \"small_limit_ages\": [\n            2,\n            14,\n            26,\n            38,\n            50,\n            62,\n            74,\n            86,\n            98,\n            110\n          ]\n        },\n        {\n          \"name\": \"疾厄\",\n          \"heavenly_stem\": \"戊\",\n          \"earthly_branch\": \"子\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": false,\n          \"major_stars\": [\n            {\n              \"name\": \"太陽\",\n              \"brightness\": \"陷\",\n              \"mutagen\": \"祿\"\n            }\n          ],\n          \"minor_stars\": [],\n          \"adjective_stars\": [\n            \"八座\",\n            \"天使\"\n          ],\n          \"changsheng\": \"死\",\n          \"boshi\": \"將軍\",\n          \"jiangqian\": \"將星\",\n          \"suiqian\": \"歲建\",\n          \"decadal\": [\n            74,\n            83\n          ],\n          \"small_limit_ages\": [\n            3,\n            15,\n            27,\n            39,\n            51,\n            63,\n            75,\n            87,\n            99,\n            111\n          ]\n        },\n        {\n          \"name\": \"財帛\",\n          \"heavenly_stem\": \"己\",\n          \"earthly_branch\": \"丑\",\n          \"is_body_palace\": false,\n          \"is_original_palace\": false,\n          \"major_stars\": [\n            {\n              \"name\": \"天府\",\n              \"brightness\": \"廟\",\n              \"mutagen\": \"\"\n            }\n          ],\n          \"minor_stars\": [\n            {\n              \"name\": \"文昌\",\n              \"brightness\": \"廟\",\n              \"mutagen\": \"\"\n            },\n            {\n              \"name\": \"文曲\",\n              \"brightness\": \"廟\",\n              \"mutagen\": \"\"\n            },\n            {\n              \"name\": \"天魁\",\n              \"brightness\": \"\"\n            }\n          ],\n          \"adjective_stars\": [\n            \"天姚\",\n            \"天空\"\n          ],\n          \"changsheng\": \"墓\",\n          \"boshi\": \"奏書\",\n          \"jiangqian\": \"攀鞍\",\n          \"suiqian\": \"晦氣\",\n          \"decadal\": [\n            84,\n            93\n          ],\n          \"small_limit_ages\": [\n            4,\n            16,\n            28,\n            40,\n            52,\n            64,\n            76,\n            88,\n            100,\n            112\n          ]\n        }\n      ],\n      \"calculation_settings\": {\n        \"type\": \"solar\",\n        \"fix_leap_month\": true,\n        \"language\": \"zh-TW\",\n        \"chart_type\": \"heaven\",\n        \"horoscope_date_basis\": \"每年 7 月 1 日，代表立春後流年；不是事件日期的精確節氣換年判斷\"\n      }\n    },\n    \"annual_cycles\": [\n      {\n        \"gregorian_year\": 2024,\n        \"virtual_age\": 5,\n        \"ziwei\": {\n          \"decadal\": {\n            \"palace\": \"命宮\",\n            \"age_range\": [\n              4,\n              13\n            ],\n            \"heavenly_stem\": \"辛\",\n            \"earthly_branch\": \"巳\"\n          },\n          \"small_limit\": {\n            \"palace\": \"子女\",\n            \"heavenly_stem\": \"戊\",\n            \"earthly_branch\": \"寅\"\n          },\n          \"yearly\": {\n            \"heavenly_stem\": \"甲\",\n            \"earthly_branch\": \"辰\",\n            \"life_palace_branch\": \"辰\",\n            \"four_transformations\": [\n              \"廉貞\",\n              \"破軍\",\n              \"武曲\",\n              \"太陽\"\n            ],\n            \"palaces\": [\n              {\n                \"name\": \"夫妻\",\n                \"heavenly_stem\": \"戊\",\n                \"earthly_branch\": \"寅\",\n                \"stars\": [\n                  \"流祿\",\n                  \"流馬\"\n                ]\n              },\n              {\n                \"name\": \"兄弟\",\n                \"heavenly_stem\": \"己\",\n                \"earthly_branch\": \"卯\",\n                \"stars\": [\n                  \"流羊\"\n                ]\n              },\n              {\n                \"name\": \"命宮\",\n                \"heavenly_stem\": \"庚\",\n                \"earthly_branch\": \"辰\",\n                \"stars\": []\n              },\n              {\n                \"name\": \"父母\",\n                \"heavenly_stem\": \"辛\",\n                \"earthly_branch\": \"巳\",\n                \"stars\": [\n                  \"流昌\",\n                  \"流喜\"\n                ]\n              },\n              {\n                \"name\": \"福德\",\n                \"heavenly_stem\": \"壬\",\n                \"earthly_branch\": \"午\",\n                \"stars\": [\n                  \"年解\"\n                ]\n              },\n              {\n                \"name\": \"田宅\",\n                \"heavenly_stem\": \"癸\",\n                \"earthly_branch\": \"未\",\n                \"stars\": [\n                  \"流鉞\"\n                ]\n              },\n              {\n                \"name\": \"官祿\",\n                \"heavenly_stem\": \"甲\",\n                \"earthly_branch\": \"申\",\n                \"stars\": []\n              },\n              {\n                \"name\": \"僕役\",\n                \"heavenly_stem\": \"乙\",\n                \"earthly_branch\": \"酉\",\n                \"stars\": [\n                  \"流曲\"\n                ]\n              },\n              {\n                \"name\": \"遷移\",\n                \"heavenly_stem\": \"丙\",\n                \"earthly_branch\": \"戌\",\n                \"stars\": []\n              },\n              {\n                \"name\": \"疾厄\",\n                \"heavenly_stem\": \"丁\",\n                \"earthly_branch\": \"亥\",\n                \"stars\": [\n                  \"流鸞\"\n                ]\n              },\n              {\n                \"name\": \"財帛\",\n                \"heavenly_stem\": \"戊\",\n                \"earthly_branch\": \"子\",\n                \"stars\": []\n              },\n              {\n                \"name\": \"子女\",\n                \"heavenly_stem\": \"己\",\n                \"earthly_branch\": \"丑\",\n                \"stars\": [\n                  \"流魁\",\n                  \"流陀\"\n                ]\n              }\n            ]\n          }\n        },\n        \"bazi\": {\n          \"gregorian_year\": 2024,\n          \"virtual_age\": 5,\n          \"ganzhi\": \"甲辰\",\n          \"basis\": \"以該年 7 月 1 日代表立春後的流年干支；不是事件日期的精確節氣換年判斷\"\n        }\n      }\n    ],\n    \"reference_text\": \"\",\n    \"note\": \"本命盤由 iztro 2.6.3 依陽曆、出生時辰及性別排出。流年索引以每年 7 月 1 日取值；不同流派或設定可能有差異。\"\n  },\n  \"historical_context\": {\n    \"timeline_years\": [\n      {\n        \"gregorian_year\": 2024,\n        \"virtual_age\": 5,\n        \"ganzhi\": \"甲辰\",\n        \"basis\": \"以該年 7 月 1 日代表立春後的流年干支；不是事件日期的精確節氣換年判斷\"\n      }\n    ],\n    \"raw_text\": \"2024 年開始上學\"\n  },\n  \"calculation_notes\": [\n    \"八字依輸入的台灣民用時間計算，未作真太陽時校正；出生時間接近時辰或節氣交界時，請另行核對。\",\n    \"流年干支以每年 7 月 1 日取值，代表立春後干支；僅列出人生紀錄中出現的西元年份。\",\n    \"紫微斗數由 iztro 2.6.3 排盤，採陽曆、天盤、繁體中文及其預設四化／亮度設定；不同流派可能有差異。\",\n    \"命理內容適合作為文化與自我反思素材，不應視為可驗證的因果、醫療、投資或人生決策依據。\"\n  ]\n}"
+}

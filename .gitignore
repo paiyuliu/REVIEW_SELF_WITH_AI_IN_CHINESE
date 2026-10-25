@@ -1,0 +1,4 @@
+node_modules/
+history.txt
+*.png
+.DS_Store

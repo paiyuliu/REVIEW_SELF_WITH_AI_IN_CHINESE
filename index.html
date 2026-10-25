@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <title>命盤資料整理器</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <h1>命盤資料整理器</h1>
+    <p>整理八字、紫微命盤與人生事件，產生可複製給 Gemini、Copilot 等 AI 的結構化分析資料，幫助你在迷茫時梳理方向。</p>
+    <p class="notice">
+      隱私說明：所有計算都在你的瀏覽器裡完成，沒有後端、不儲存資料、不上傳任何內容，也不會呼叫任何 AI；
+      是否把結果貼給 AI 由你自己決定。請勿填寫真實姓名、身分證字號或聯絡方式，人生事件也建議適度去識別化。
+    </p>
+
+    <form id="chart-form">
+      <h2>出生資料</h2>
+      <div class="grid">
+        <label>陽曆出生日期
+          <input type="date" id="birth-date" value="1983-08-08" required>
+        </label>
+        <label>性別（供命盤規則使用）
+          <select id="sex">
+            <option value="男">男</option>
+            <option value="女">女</option>
+            <option value="未提供">未提供</option>
+          </select>
+        </label>
+        <label>出生時間（台灣當地時間）
+          <input type="time" id="birth-time" value="06:30" required>
+        </label>
+        <label>出生地
+          <input type="text" id="birth-place" value="嘉義大林">
+        </label>
+      </div>
+      <p class="hint">八字以民用時間計算，未校正真太陽時。尚未確認性別時可選「未提供」，不會替你推測。</p>
+
+      <h2>其他排盤資料（選填）</h2>
+      <textarea id="reference-text" rows="4"
+        placeholder="可貼上其他排盤工具的結果，方便和本程式排盤比對；只作參考，不會覆蓋計算結果。"></textarea>
+
+      <h2>人生事件</h2>
+      <textarea id="history" rows="14" aria-label="人生事件"></textarea>
+      <p class="hint">系統會保留原文，並從中擷取西元年份，建立流年索引。</p>
+
+      <button type="submit" id="submit">產生命盤與 AI 分析資料</button>
+    </form>
+
+    <p id="status" role="status" aria-live="polite"></p>
+
+    <section id="result" hidden>
+      <h2>八字四柱</h2>
+      <div id="bazi"></div>
+      <p id="lunar-date" class="hint"></p>
+
+      <h2>紫微斗數本命盤</h2>
+      <p id="ziwei-summary"></p>
+      <div id="palaces"></div>
+      <h2>紫微流年、大限與小限索引</h2>
+      <div id="annual"></div>
+
+      <h2>貼給 AI 的內容</h2>
+      <label>提示詞語氣
+        <select id="prompt-kind"></select>
+      </label>
+      <div class="actions">
+        <button type="button" id="copy">一鍵複製</button>
+        <button type="button" id="download-md">下載 Markdown</button>
+        <button type="button" id="download-json">下載 JSON</button>
+      </div>
+      <textarea id="output" rows="18" readonly aria-label="可直接複製的內容"></textarea>
+    </section>
+
+    <p class="hint">命理結果屬傳統文化觀點，僅供整理與自我反思；不構成醫療、財務或其他專業建議。</p>
+    <p class="hint">排盤使用 iztro（MIT）與 lunar-typescript（MIT）。</p>
+  </main>
+
+  <script src="vendor/iztro.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

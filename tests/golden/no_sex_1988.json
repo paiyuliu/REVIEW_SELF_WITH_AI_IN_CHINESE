@@ -1,0 +1,78 @@
+{
+ "input": {
+  "birth_date": "1988-12-25",
+  "birth_time": "09:05:30",
+  "birth_place": "花蓮",
+  "sex": "未提供",
+  "ziwei_chart_text": "",
+  "history": "1990 年；2008 年"
+ },
+ "report": {
+  "profile": {
+   "solar_birth": "1988-12-25 09:05:30",
+   "birth_place": "花蓮",
+   "timezone": "Asia/Taipei",
+   "time_basis": "台灣當地民用時間；未校正真太陽時",
+   "sex": "未提供"
+  },
+  "bazi": {
+   "calculation": "lunar-python",
+   "pillars": [
+    {
+     "pillar": "年柱",
+     "ganzhi": "戊辰"
+    },
+    {
+     "pillar": "月柱",
+     "ganzhi": "甲子"
+    },
+    {
+     "pillar": "日柱",
+     "ganzhi": "甲寅"
+    },
+    {
+     "pillar": "時柱",
+     "ganzhi": "己巳"
+    }
+   ],
+   "lunar_date": {
+    "year": 1988,
+    "month": 11,
+    "day": 17,
+    "is_leap_month": false
+   }
+  },
+  "ziwei_doushu": {
+   "status": "needs_gender",
+   "chart": null,
+   "annual_cycles": [],
+   "reference_text": "",
+   "note": "紫微排盤需要性別，請在出生資料中選擇男或女。"
+  },
+  "historical_context": {
+   "timeline_years": [
+    {
+     "gregorian_year": 1990,
+     "virtual_age": 3,
+     "ganzhi": "庚午",
+     "basis": "以該年 7 月 1 日代表立春後的流年干支；不是事件日期的精確節氣換年判斷"
+    },
+    {
+     "gregorian_year": 2008,
+     "virtual_age": 21,
+     "ganzhi": "戊子",
+     "basis": "以該年 7 月 1 日代表立春後的流年干支；不是事件日期的精確節氣換年判斷"
+    }
+   ],
+   "raw_text": "1990 年；2008 年"
+  },
+  "calculation_notes": [
+   "八字依輸入的台灣民用時間計算，未作真太陽時校正；出生時間接近時辰或節氣交界時，請另行核對。",
+   "流年干支以每年 7 月 1 日取值，代表立春後干支；僅列出人生紀錄中出現的西元年份。",
+   "紫微斗數由 iztro 2.6.3 排盤，採陽曆、天盤、繁體中文及其預設四化／亮度設定；不同流派可能有差異。",
+   "命理內容適合作為文化與自我反思素材，不應視為可驗證的因果、醫療、投資或人生決策依據。"
+  ]
+ },
+ "markdown": "# 命盤與人生事件資料（供 AI 輔助整理）\n\n請以尊重、審慎、不宿命論的方式分析。清楚區分命理傳統的象徵性解讀與可由人生紀錄確認的事實；\n不要把相關性說成因果，也不要對健康、投資或重大人生決策作確定性預言。\n\n## 出生資料\n- 陽曆：1988-12-25 09:05:30\n- 出生地：花蓮\n- 時區／時間基準：Asia/Taipei；台灣當地民用時間；未校正真太陽時\n- 性別：未提供\n- 八字四柱：年柱 戊辰、月柱 甲子、日柱 甲寅、時柱 己巳\n\n## 紫微斗數本命盤\n紫微排盤需要性別，請在出生資料中選擇男或女。\n\n## 紫微流年、大限與小限索引\n人生事件中沒有可供建立流年索引的西元年份。\n\n## 八字流年索引\n- 1990 年／虛歲 3／流年干支 庚午\n- 2008 年／虛歲 21／流年干支 戊子\n\n## 人生事件原文\n1990 年；2008 年\n\n## 計算與解讀限制\n- 八字依輸入的台灣民用時間計算，未作真太陽時校正；出生時間接近時辰或節氣交界時，請另行核對。\n- 流年干支以每年 7 月 1 日取值，代表立春後干支；僅列出人生紀錄中出現的西元年份。\n- 紫微斗數由 iztro 2.6.3 排盤，採陽曆、天盤、繁體中文及其預設四化／亮度設定；不同流派可能有差異。\n- 命理內容適合作為文化與自我反思素材，不應視為可驗證的因果、醫療、投資或人生決策依據。",
+ "json": "{\n  \"profile\": {\n    \"solar_birth\": \"1988-12-25 09:05:30\",\n    \"birth_place\": \"花蓮\",\n    \"timezone\": \"Asia/Taipei\",\n    \"time_basis\": \"台灣當地民用時間；未校正真太陽時\",\n    \"sex\": \"未提供\"\n  },\n  \"bazi\": {\n    \"calculation\": \"lunar-python\",\n    \"pillars\": [\n      {\n        \"pillar\": \"年柱\",\n        \"ganzhi\": \"戊辰\"\n      },\n      {\n        \"pillar\": \"月柱\",\n        \"ganzhi\": \"甲子\"\n      },\n      {\n        \"pillar\": \"日柱\",\n        \"ganzhi\": \"甲寅\"\n      },\n      {\n        \"pillar\": \"時柱\",\n        \"ganzhi\": \"己巳\"\n      }\n    ],\n    \"lunar_date\": {\n      \"year\": 1988,\n      \"month\": 11,\n      \"day\": 17,\n      \"is_leap_month\": false\n    }\n  },\n  \"ziwei_doushu\": {\n    \"status\": \"needs_gender\",\n    \"chart\": null,\n    \"annual_cycles\": [],\n    \"reference_text\": \"\",\n    \"note\": \"紫微排盤需要性別，請在出生資料中選擇男或女。\"\n  },\n  \"historical_context\": {\n    \"timeline_years\": [\n      {\n        \"gregorian_year\": 1990,\n        \"virtual_age\": 3,\n        \"ganzhi\": \"庚午\",\n        \"basis\": \"以該年 7 月 1 日代表立春後的流年干支；不是事件日期的精確節氣換年判斷\"\n      },\n      {\n        \"gregorian_year\": 2008,\n        \"virtual_age\": 21,\n        \"ganzhi\": \"戊子\",\n        \"basis\": \"以該年 7 月 1 日代表立春後的流年干支；不是事件日期的精確節氣換年判斷\"\n      }\n    ],\n    \"raw_text\": \"1990 年；2008 年\"\n  },\n  \"calculation_notes\": [\n    \"八字依輸入的台灣民用時間計算，未作真太陽時校正；出生時間接近時辰或節氣交界時，請另行核對。\",\n    \"流年干支以每年 7 月 1 日取值，代表立春後干支；僅列出人生紀錄中出現的西元年份。\",\n    \"紫微斗數由 iztro 2.6.3 排盤，採陽曆、天盤、繁體中文及其預設四化／亮度設定；不同流派可能有差異。\",\n    \"命理內容適合作為文化與自我反思素材，不應視為可驗證的因果、醫療、投資或人生決策依據。\"\n  ]\n}"
+}
